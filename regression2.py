@@ -43,10 +43,10 @@ mse = met.mean_squared_error(ytest,ypred)
 # plot data 
 plt.scatter(xtrain, ytrain ,  color='b')
 plt.scatter(xtest , ytest  ,  color='r')
-plt.xlabel('x')
-plt.ylabel('y')
 plt.plot(xtest,ypred,  color='black')
 
+plt.xlabel('x')
+plt.ylabel('y')
 plt.show()
 
 
