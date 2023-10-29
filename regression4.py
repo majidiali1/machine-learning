@@ -34,6 +34,6 @@ model.fit(new_X_train, Y_train)
 Y_pred = model.predict(new_X_test)
 
 # medel assesment
-MAE = mean_absolute_error(Y_test, Y_pred)
-sqrt(mean_squared_error(Y_test,Y_pred))
+MAE = mean_absolute_error(Y_test, Y_pred) # mean absolute error 
+RMSE = sqrt(mean_squared_error(Y_test,Y_pred))  # radical mean squared error 
 
