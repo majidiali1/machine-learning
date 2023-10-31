@@ -40,14 +40,7 @@ ypred = model.predict(xtest)
 # model assesment 
 mse = met.mean_squared_error(ytest,ypred)
 
-# plot data 
-plt.scatter(xtrain, ytrain ,  color='b')
-plt.scatter(xtest , ytest  ,  color='r')
-plt.plot(xtest,ypred,  color='black')
-
-plt.xlabel('x')
-plt.ylabel('y')
-plt.show()
+# plot results  
 
 
 
